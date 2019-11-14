@@ -1460,6 +1460,13 @@ let cards = [
 	author: "Alara Joel",
 	githubLink: "https://github.com/stealthman22"
 }
+{
+	artName: "ani",
+	pageLink: "./Art/ani/ani animation.html",
+	imageLink: "./Art/ani/ani animation.gif",
+	author: "alon",
+	githubLink: "https://github.com/aloneliyahu"
+  }
 ];
 
 // +--------------------------------------------------------------------------------+

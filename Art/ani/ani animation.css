@@ -1,0 +1,37 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+.block {
+  height: 100%;
+}
+div#one {
+  height: 33%;
+  width: 100%;
+  background: #fae3d9;
+  transform: rotate(720deg);
+  transition: 2s;
+  mask-repeat: no-repeat;
+}
+div#two {
+  height: 33%;
+  width: 100%;
+  background: chartreuse;
+  transform: rotate(2160deg);
+  transition: 4s;
+}
+div#three {
+  height: 33%;
+  width: 100%;
+  background: blue;
+  transform: rotate(540deg);
+  transition: 8s;
+}
+#three:hover {
+  transform: rotate(-540deg);
+}
+#one:hover {
+  mask-repeat: no-repeat;
+  transform: rotate(180deg);
+}
